@@ -1,15 +1,31 @@
 /* Octotree Extension */
 
 .octotree-sidebar.octotree-github-sidebar {
+    .octotree-toggle {
+        background-color: $dropdown-bg !important;
+        border-color: $border-color !important;
+
+        &,
+        > span,
+        > .octotree-toggle-icon::before {
+            color: $link-color !important;
+        }
+    }
+
+    .octotree-announcement {
+        background-color: $comment-bg !important;
+        color: $text-color !important;
+    }
+
     .octotree-views {
         background-color: $dropdown-bg !important;
         border: 0 solid !important;
-        border-right: 1px solid $dropdown-bg-active !important;
+        border-right: 1px solid $border-color !important;
         .octotree-view {
             .octotree-view-header {
                 background-color: $head-bg !important;
                 border: 0 solid !important;
-                border-right: 1px solid $dropdown-bg-active !important;
+                border-right: 1px solid $border-color !important;
             }
             .octotree-view-body {
                 .octotree-settings-heading {
@@ -42,5 +58,11 @@
                 color: $bright-text-color !important;
             }
         }
+    }
+
+    .octotree-footer.octotree-footer-auth {
+        background-color: $bg-color !important;
+        border-color: $border-color !important;
+        color: $text-color !important;
     }
 }
