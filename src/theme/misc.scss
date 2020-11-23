@@ -109,22 +109,22 @@ img.network-tree {
 
 /* Scroll bar */
 
-::-webkit-scrollbar {
-    width: 10px;
-}
+// ::-webkit-scrollbar {
+//     width: 10px;
+// }
 
-::-webkit-scrollbar-track {
-    -webkit-border-radius: 12px;
-    border-radius: 12px;
-    margin: 2px 0 2px 0;
-    background-color: $scrollbar-track;
-}
+// ::-webkit-scrollbar-track {
+//     -webkit-border-radius: 12px;
+//     border-radius: 12px;
+//     margin: 2px 0 2px 0;
+//     background-color: $scrollbar-track;
+// }
 
-::-webkit-scrollbar-thumb {
-    -webkit-border-radius: 4px;
-    border-radius: 4px;
-    background-color: $scrollbar-thumb;
-}
+// ::-webkit-scrollbar-thumb {
+//     -webkit-border-radius: 4px;
+//     border-radius: 4px;
+//     background-color: $scrollbar-thumb;
+// }
 
 /* Lock Icon - always gold */
 .octicon.octicon-lock {
